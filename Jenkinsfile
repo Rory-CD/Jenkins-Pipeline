@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo "fetch the source code from GitHub"
                 echo "compile the code using Maven"
+                echo "test for demo"
             }
         }
         stage('Unit and Integration Tests') {
